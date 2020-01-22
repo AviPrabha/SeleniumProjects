@@ -1,0 +1,97 @@
+2015-03-31 11:27:24,876 - com.qspiders.KeyDriver - INFO - **********************Starting Frame Work**********************
+2015-03-31 11:27:31,477 - com.qspiders.KeyDriver - INFO - Timeout is:20 SECONDS
+2015-03-31 11:27:38,912 - com.qspiders.KeyDriver - INFO - Total Number of Scenarios:1
+2015-03-31 11:27:39,002 - com.qspiders.KeyDriver - INFO - ======================================================
+2015-03-31 11:27:39,002 - com.qspiders.KeyDriver - INFO - Starting scenario:Scenario2
+2015-03-31 11:27:39,028 - com.qspiders.KeyDriver - INFO - StepCount:15
+2015-03-31 11:27:39,113 - com.qspiders.KeyDriver - INFO - enter username
+2015-03-31 11:27:39,113 - com.qspiders.KeyDriver - INFO - Reading keyword1:sendKeys
+2015-03-31 11:27:39,113 - com.qspiders.KeyDriver - INFO - Reading keyword2://input[@name="username"]
+2015-03-31 11:27:39,113 - com.qspiders.KeyDriver - INFO - Reading keyword3:admin
+2015-03-31 11:27:39,232 - com.qspiders.FWLibrary - INFO - Element found with xpath://input[@name="username"]
+2015-03-31 11:27:39,461 - com.qspiders.FWLibrary - INFO - Entering "admin"
+2015-03-31 11:27:39,545 - com.qspiders.KeyDriver - INFO - enter password
+2015-03-31 11:27:39,545 - com.qspiders.KeyDriver - INFO - Reading keyword1:sendKeys
+2015-03-31 11:27:39,545 - com.qspiders.KeyDriver - INFO - Reading keyword2://input[@name='pwd']
+2015-03-31 11:27:39,545 - com.qspiders.KeyDriver - INFO - Reading keyword3:manager
+2015-03-31 11:27:39,649 - com.qspiders.FWLibrary - INFO - Element found with xpath://input[@name='pwd']
+2015-03-31 11:27:39,871 - com.qspiders.FWLibrary - INFO - Entering "manager"
+2015-03-31 11:27:39,959 - com.qspiders.KeyDriver - INFO - click login
+2015-03-31 11:27:39,959 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:39,959 - com.qspiders.KeyDriver - INFO - Reading keyword2://a[@id='loginButton']
+2015-03-31 11:27:39,959 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:39,976 - com.qspiders.FWLibrary - INFO - Element found with xpath://a[@id='loginButton']
+2015-03-31 11:27:40,297 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:40,371 - com.qspiders.KeyDriver - INFO - Wait for 10 secs
+2015-03-31 11:27:40,371 - com.qspiders.KeyDriver - INFO - Reading keyword1:waitForSeconds
+2015-03-31 11:27:40,371 - com.qspiders.KeyDriver - INFO - Reading keyword2:10.0
+2015-03-31 11:27:40,371 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:40,371 - com.qspiders.FWLibrary - INFO - Wait for 10 seconds
+2015-03-31 11:27:50,446 - com.qspiders.KeyDriver - INFO - Verify if home page displayed
+2015-03-31 11:27:50,446 - com.qspiders.KeyDriver - INFO - Reading keyword1:verifyTitle
+2015-03-31 11:27:50,446 - com.qspiders.KeyDriver - INFO - Reading keyword2:actiTIME - Enter Time-Track
+2015-03-31 11:27:50,446 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:50,463 - com.qspiders.FWLibrary - INFO - Title is correct:actiTIME - Enter Time-Track
+2015-03-31 11:27:50,525 - com.qspiders.KeyDriver - INFO - click on settings
+2015-03-31 11:27:50,525 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:50,525 - com.qspiders.KeyDriver - INFO - Reading keyword2:(//div[@class="label"])[6]
+2015-03-31 11:27:50,525 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:50,594 - com.qspiders.FWLibrary - INFO - Element found with xpath:(//div[@class="label"])[6]
+2015-03-31 11:27:52,052 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:52,121 - com.qspiders.KeyDriver - INFO - click on billing
+2015-03-31 11:27:52,121 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:52,121 - com.qspiders.KeyDriver - INFO - Reading keyword2://a[contains(text(),'Billing Types')]
+2015-03-31 11:27:52,121 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:52,203 - com.qspiders.FWLibrary - INFO - Element found with xpath://a[contains(text(),'Billing Types')]
+2015-03-31 11:27:52,521 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:52,576 - com.qspiders.KeyDriver - INFO - click on create new billing type button
+2015-03-31 11:27:52,577 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:52,577 - com.qspiders.KeyDriver - INFO - Reading keyword2://input[@value="Create New Billing Type"]
+2015-03-31 11:27:52,577 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:53,272 - com.qspiders.FWLibrary - INFO - Element found with xpath://input[@value="Create New Billing Type"]
+2015-03-31 11:27:54,250 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:54,308 - com.qspiders.KeyDriver - INFO - Enter the name as "Testing"
+2015-03-31 11:27:54,309 - com.qspiders.KeyDriver - INFO - Reading keyword1:sendKeys
+2015-03-31 11:27:54,309 - com.qspiders.KeyDriver - INFO - Reading keyword2://input[@id="name"]
+2015-03-31 11:27:54,309 - com.qspiders.KeyDriver - INFO - Reading keyword3:Testing
+2015-03-31 11:27:54,397 - com.qspiders.FWLibrary - INFO - Element found with xpath://input[@id="name"]
+2015-03-31 11:27:54,701 - com.qspiders.FWLibrary - INFO - Entering "Testing"
+2015-03-31 11:27:54,748 - com.qspiders.KeyDriver - INFO - Click on create billing type button
+2015-03-31 11:27:54,748 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:54,749 - com.qspiders.KeyDriver - INFO - Reading keyword2://td[@id='ButtonPane']/input[1]
+2015-03-31 11:27:54,749 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:54,841 - com.qspiders.FWLibrary - INFO - Element found with xpath://td[@id='ButtonPane']/input[1]
+2015-03-31 11:27:56,132 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:56,191 - com.qspiders.KeyDriver - INFO - Verify that success msg is displayed.
+2015-03-31 11:27:56,191 - com.qspiders.KeyDriver - INFO - Reading keyword1:verifyText
+2015-03-31 11:27:56,191 - com.qspiders.KeyDriver - INFO - Reading keyword2://span[@class='successmsg']
+2015-03-31 11:27:56,191 - com.qspiders.KeyDriver - INFO - Reading keyword3:Billing type has been successfully created.
+2015-03-31 11:27:56,292 - com.qspiders.FWLibrary - INFO - Element found with xpath://span[@class='successmsg']
+2015-03-31 11:27:56,708 - com.qspiders.FWLibrary - INFO - Text is correct:Billing type has been successfully created.
+2015-03-31 11:27:56,757 - com.qspiders.KeyDriver - INFO - Click on delete link of Testing
+2015-03-31 11:27:56,757 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:56,757 - com.qspiders.KeyDriver - INFO - Reading keyword2://a[contains(text(),'Testing')]/../../td[6]/a
+2015-03-31 11:27:56,757 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:56,814 - com.qspiders.FWLibrary - INFO - Element found with xpath://a[contains(text(),'Testing')]/../../td[6]/a
+2015-03-31 11:27:57,206 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:57,253 - com.qspiders.KeyDriver - INFO - Verify that alert popup is displayed.
+2015-03-31 11:27:57,253 - com.qspiders.KeyDriver - INFO - Reading keyword1:checkAlertDisplayed
+2015-03-31 11:27:57,253 - com.qspiders.KeyDriver - INFO - Reading keyword2:
+2015-03-31 11:27:57,253 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:57,402 - com.qspiders.FWLibrary - INFO - Alert popup displayed: 
+2015-03-31 11:27:57,465 - com.qspiders.KeyDriver - INFO - Click OK on the alert popup
+2015-03-31 11:27:57,465 - com.qspiders.KeyDriver - INFO - Reading keyword1:acceptAlertPopup
+2015-03-31 11:27:57,465 - com.qspiders.KeyDriver - INFO - Reading keyword2:
+2015-03-31 11:27:57,465 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:57,662 - com.qspiders.FWLibrary - INFO - Alert popup accepted: 
+2015-03-31 11:27:57,718 - com.qspiders.KeyDriver - INFO - click logout
+2015-03-31 11:27:57,719 - com.qspiders.KeyDriver - INFO - Reading keyword1:click
+2015-03-31 11:27:57,719 - com.qspiders.KeyDriver - INFO - Reading keyword2://a[text()='Logout']
+2015-03-31 11:27:57,719 - com.qspiders.KeyDriver - INFO - Reading keyword3:
+2015-03-31 11:27:59,523 - com.qspiders.FWLibrary - INFO - Element found with xpath://a[text()='Logout']
+2015-03-31 11:27:59,935 - com.qspiders.FWLibrary - INFO - clicking on the element
+2015-03-31 11:27:59,935 - com.qspiders.KeyDriver - INFO - Ending scenario:Scenario2
+2015-03-31 11:27:59,936 - com.qspiders.KeyDriver - INFO - !!!! Execution Status of above scenario:PASS !!!!
+2015-03-31 11:27:59,936 - com.qspiders.KeyDriver - INFO - ======================================================
+2015-03-31 11:28:00,412 - com.qspiders.KeyDriver - INFO - Total Pass:1 ; Total Fail:0 ; Total Skip:0
+2015-03-31 11:28:00,412 - com.qspiders.KeyDriver - INFO - **********************Ending Frame Work**********************

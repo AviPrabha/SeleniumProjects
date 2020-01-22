@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[dummy Script]]>
+    </line>
+    <line>
+      <![CDATA[demo Script]]>
+    </line>
+    <line>
+      <![CDATA[prototype Script]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128" started-at="2020-01-08T14:25:40 IST" finished-at="2020-01-08T14:25:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128" started-at="2020-01-08T14:25:40 IST" finished-at="2020-01-08T14:25:40 IST">
+      <class name="package2.ListnerTest">
+        <test-method status="PASS" signature="dummy()[pri:0, instance:package2.ListnerTest@731a74c]" name="dummy" duration-ms="32" started-at="2020-01-08T14:25:40 IST" finished-at="2020-01-08T14:25:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[dummy Script]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dummy -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:package2.ListnerTest@731a74c]" name="demo" duration-ms="0" started-at="2020-01-08T14:25:40 IST" finished-at="2020-01-08T14:25:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[demo Script]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="prototype()[pri:0, instance:package2.ListnerTest@731a74c]" name="prototype" duration-ms="15" started-at="2020-01-08T14:25:40 IST" depends-on-methods="package2.ListnerTest.dummy" finished-at="2020-01-08T14:25:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[prototype Script]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- prototype -->
+      </class> <!-- package2.ListnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

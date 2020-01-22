@@ -1,0 +1,10 @@
+2015-03-31 11:23:21,195 - com.qspiders.KeyDriver - INFO - **********************Starting Frame Work**********************
+2015-03-31 11:23:28,123 - com.qspiders.KeyDriver - INFO - Timeout is:20 SECONDS
+2015-03-31 11:24:10,798 - com.qspiders.KeyDriver - INFO - Total Number of Scenarios:1
+2015-03-31 11:24:10,893 - com.qspiders.KeyDriver - INFO - ======================================================
+2015-03-31 11:24:10,893 - com.qspiders.KeyDriver - INFO - Starting scenario:Scenario2
+2015-03-31 11:24:10,917 - com.qspiders.KeyDriver - INFO - StepCount:15
+2015-03-31 11:24:10,992 - com.qspiders.KeyDriver - INFO - enter username
+2015-03-31 11:24:10,992 - com.qspiders.KeyDriver - INFO - Reading keyword1:sendKeys
+2015-03-31 11:24:10,992 - com.qspiders.KeyDriver - INFO - Reading keyword2://input[@name="username"]
+2015-03-31 11:24:10,992 - com.qspiders.KeyDriver - INFO - Reading keyword3:admin

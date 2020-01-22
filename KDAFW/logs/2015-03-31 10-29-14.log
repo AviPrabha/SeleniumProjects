@@ -1,0 +1,27 @@
+**********************Starting Frame Work********************** - 31-03-2015 10:29:14 - com.qspiders.KeyDriver - INFO - 
+Timeout is:20 SECONDS - 31-03-2015 10:29:19 - com.qspiders.KeyDriver - INFO - 
+Total Number of Scenarios:1 - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+====================================================== - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Starting scenario:Scenario2 - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+StepCount:15 - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+enter username - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword1:sendKeys - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword2://input[@name="username"] - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword3:admin - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Element found with xpath://input[@name="username"] - 31-03-2015 10:29:20 - com.qspiders.FWLibrary - INFO - 
+Entering "admin" - 31-03-2015 10:29:20 - com.qspiders.FWLibrary - INFO - 
+enter password - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword1:sendKeys - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword2://input[@name='pwd'] - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword3:manager - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Element found with xpath://input[@name='pwd'] - 31-03-2015 10:29:20 - com.qspiders.FWLibrary - INFO - 
+Entering "manager" - 31-03-2015 10:29:20 - com.qspiders.FWLibrary - INFO - 
+click login - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword1:click - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword2://a[@id='loginButton'] - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Reading keyword3: - 31-03-2015 10:29:20 - com.qspiders.KeyDriver - INFO - 
+Element found with xpath://a[@id='loginButton'] - 31-03-2015 10:29:20 - com.qspiders.FWLibrary - INFO - 
+Wait for 10 secs - 31-03-2015 10:29:21 - com.qspiders.KeyDriver - INFO - 
+Reading keyword1:waitForSeconds - 31-03-2015 10:29:21 - com.qspiders.KeyDriver - INFO - 
+Reading keyword2:10.0 - 31-03-2015 10:29:21 - com.qspiders.KeyDriver - INFO - 
+Reading keyword3: - 31-03-2015 10:29:21 - com.qspiders.KeyDriver - INFO - 

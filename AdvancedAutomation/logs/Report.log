@@ -1,0 +1,5 @@
+main -2020-01-16 14:33:12,506 -DEBUG -package2.LoggingTest -Debugging
+main -2020-01-16 14:33:12,506 -INFO -package2.LoggingTest -Information
+main -2020-01-16 14:33:12,506 -ERROR -package2.LoggingTest -Error
+main -2020-01-16 14:33:12,506 -WARN -package2.LoggingTest -Warning
+main -2020-01-16 14:33:12,506 -FATAL -package2.LoggingTest -fatal

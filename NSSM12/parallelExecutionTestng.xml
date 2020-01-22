@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Test1">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="baseurl" value="http://desktop-v3tcd3d/login.do"/>
+    <classes>
+      <class name="package2.ParallelExecution"/>
+    </classes>
+  </test>
+  
+   <test name="Test2">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="baseurl" value="http://desktop-v3tcd3d/login.do"/>
+    <classes>
+      <class name="package2.ParallelExecution"/>
+    </classes>
+  </test>
+
+   <test name="Test4">
+  <parameter name="browser" value="edge"/>
+  <parameter name="baseurl" value="http://desktop-v3tcd3d/login.do"/>
+    <classes>
+      <class name="package2.ParallelExecution"/>
+    </classes>
+  </test>
+  
+</suite>

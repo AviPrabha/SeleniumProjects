@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Framework Execution Starts: Thu Jan 02 21:28:40 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[validLoginScript execution starts:Thu Jan 02 21:28:52 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLoginScript is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginScript execution starts:Thu Jan 02 21:29:10 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login msg is verified]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginScript is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31077" started-at="2020-01-02T21:28:40 IST" finished-at="2020-01-02T21:29:12 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31077" started-at="2020-01-02T21:28:40 IST" finished-at="2020-01-02T21:29:12 IST">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="preCondition" is-config="true" duration-ms="11621" started-at="2020-01-02T21:28:41 IST" finished-at="2020-01-02T21:28:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@598067a5]" name="validLogin" duration-ms="3788" started-at="2020-01-02T21:28:52 IST" finished-at="2020-01-02T21:28:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginScript execution starts:Thu Jan 02 21:28:52 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Home Page is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLoginScript is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="postCondition" is-config="true" duration-ms="4107" started-at="2020-01-02T21:28:56 IST" finished-at="2020-01-02T21:29:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="preCondition" is-config="true" duration-ms="10172" started-at="2020-01-02T21:29:00 IST" finished-at="2020-01-02T21:29:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@598067a5]" name="invalidLogin" duration-ms="1058" started-at="2020-01-02T21:29:10 IST" finished-at="2020-01-02T21:29:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLoginScript execution starts:Thu Jan 02 21:29:10 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Login msg is verified]]>
+            </line>
+            <line>
+              <![CDATA[invalidLoginScript is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="postCondition" is-config="true" duration-ms="239" started-at="2020-01-02T21:29:11 IST" finished-at="2020-01-02T21:29:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

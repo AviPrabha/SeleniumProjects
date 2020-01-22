@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.actitime.generic.MyTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="baseurl" value="http://127.0.0.1/login.do"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.scripts.TaskTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="deleteProject"/>
+          <include name="preCondition"/>
+          <include name="createCustomer"/>
+          <include name="createProject"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

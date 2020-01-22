@@ -1,0 +1,4 @@
+2020-01-15 15:11:59,393 [main] INFO MyTestListener - framework execution starts
+2020-01-15 15:12:20,789 [main] INFO MyTestListener - validLogin Script execution starts
+2020-01-15 15:12:21,635 [main] INFO MyTestListener - validLogin Script is passed
+2020-01-15 15:12:22,321 [main] INFO MyTestListener - framework execution ends

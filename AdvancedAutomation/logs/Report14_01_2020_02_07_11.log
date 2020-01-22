@@ -1,0 +1,8 @@
+2020-01-14 02:07:11,717 [main] INFO MyTestListener - framework execution starts
+2020-01-14 02:07:11,789 [main] INFO MyTestListener - login Script execution starts
+2020-01-14 02:07:45,025 [main] WARN MyTestListener - login Script is failed 
+2020-01-14 02:07:45,037 [main] INFO MyTestListener - demo Script execution starts
+2020-01-14 02:07:45,040 [main] INFO MyTestListener - demo Script is passed
+2020-01-14 02:07:45,049 [main] INFO MyTestListener - sample Script execution starts
+2020-01-14 02:07:45,051 [main] INFO MyTestListener - sample Script is skipped
+2020-01-14 02:07:45,056 [main] INFO MyTestListener - framework execution ends
