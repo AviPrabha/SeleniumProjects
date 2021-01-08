@@ -2,13 +2,13 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Framework Execution Starts: Thu Jan 02 21:28:40 IST 2020]]>
+      <![CDATA[Framework Execution Starts: Wed Feb 12 19:00:35 IST 2020]]>
     </line>
     <line>
       <![CDATA[Chrome Browser Launched]]>
     </line>
     <line>
-      <![CDATA[validLoginScript execution starts:Thu Jan 02 21:28:52 IST 2020]]>
+      <![CDATA[validLoginScript execution starts:Wed Feb 12 19:01:00 IST 2020]]>
     </line>
     <line>
       <![CDATA[Home Page is verified]]>
@@ -23,7 +23,7 @@
       <![CDATA[Chrome Browser Launched]]>
     </line>
     <line>
-      <![CDATA[invalidLoginScript execution starts:Thu Jan 02 21:29:10 IST 2020]]>
+      <![CDATA[invalidLoginScript execution starts:Wed Feb 12 19:01:46 IST 2020]]>
     </line>
     <line>
       <![CDATA[Invalid Login msg is verified]]>
@@ -35,12 +35,12 @@
       <![CDATA[Browser closed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="31077" started-at="2020-01-02T21:28:40 IST" finished-at="2020-01-02T21:29:12 IST">
+  <suite name="Suite" duration-ms="73578" started-at="2020-02-12T19:00:35 IST" finished-at="2020-02-12T19:01:49 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31077" started-at="2020-01-02T21:28:40 IST" finished-at="2020-01-02T21:29:12 IST">
+    <test name="Test" duration-ms="73578" started-at="2020-02-12T19:00:35 IST" finished-at="2020-02-12T19:01:49 IST">
       <class name="com.actitime.scripts.LoginTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="preCondition" is-config="true" duration-ms="11621" started-at="2020-01-02T21:28:41 IST" finished-at="2020-01-02T21:28:52 IST">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="preCondition" is-config="true" duration-ms="23137" started-at="2020-02-12T19:00:36 IST" finished-at="2020-02-12T19:00:59 IST">
           <params>
             <param index="0">
               <value>
@@ -59,10 +59,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@598067a5]" name="validLogin" duration-ms="3788" started-at="2020-01-02T21:28:52 IST" finished-at="2020-01-02T21:28:56 IST">
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="validLogin" duration-ms="25170" started-at="2020-02-12T19:01:00 IST" finished-at="2020-02-12T19:01:25 IST">
           <reporter-output>
             <line>
-              <![CDATA[validLoginScript execution starts:Thu Jan 02 21:28:52 IST 2020]]>
+              <![CDATA[validLoginScript execution starts:Wed Feb 12 19:01:00 IST 2020]]>
             </line>
             <line>
               <![CDATA[Home Page is verified]]>
@@ -72,14 +72,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="postCondition" is-config="true" duration-ms="4107" started-at="2020-01-02T21:28:56 IST" finished-at="2020-01-02T21:29:00 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="postCondition" is-config="true" duration-ms="1120" started-at="2020-02-12T19:01:26 IST" finished-at="2020-02-12T19:01:27 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="preCondition" is-config="true" duration-ms="10172" started-at="2020-01-02T21:29:00 IST" finished-at="2020-01-02T21:29:10 IST">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="preCondition" is-config="true" duration-ms="18043" started-at="2020-02-12T19:01:27 IST" finished-at="2020-02-12T19:01:46 IST">
           <params>
             <param index="0">
               <value>
@@ -98,10 +98,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@598067a5]" name="invalidLogin" duration-ms="1058" started-at="2020-01-02T21:29:10 IST" finished-at="2020-01-02T21:29:11 IST">
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="invalidLogin" duration-ms="2869" started-at="2020-02-12T19:01:46 IST" finished-at="2020-02-12T19:01:48 IST">
           <reporter-output>
             <line>
-              <![CDATA[invalidLoginScript execution starts:Thu Jan 02 21:29:10 IST 2020]]>
+              <![CDATA[invalidLoginScript execution starts:Wed Feb 12 19:01:46 IST 2020]]>
             </line>
             <line>
               <![CDATA[Invalid Login msg is verified]]>
@@ -111,7 +111,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@598067a5]" name="postCondition" is-config="true" duration-ms="239" started-at="2020-01-02T21:29:11 IST" finished-at="2020-01-02T21:29:11 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@2dbf4cbd]" name="postCondition" is-config="true" duration-ms="256" started-at="2020-02-12T19:01:49 IST" finished-at="2020-02-12T19:01:49 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser closed]]>
